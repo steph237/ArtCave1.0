@@ -58,34 +58,37 @@
 
         <Button
             android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="0dp"
+            android:layout_width="138dp"
+            android:layout_height="46dp"
             android:layout_marginEnd="56dp"
-            android:background="@drawable/round_button"
-            android:backgroundTint="@color/white"
+            android:backgroundTint="@android:color/transparent"
             android:text="SIGNUP"
             android:textColor="#FBFBFB"
             android:textSize="18sp"
+            app:cornerRadius="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintVertical_bias="0.0"
+            app:strokeColor="#FFFFFF"
+            app:strokeWidth="2sp" />
 
         <Button
             android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="58dp"
-            android:background="@drawable/round_button"
+            android:layout_width="161dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="40dp"
             android:backgroundTint="@color/white"
             android:text="LOGIN"
-            android:textColor="#F6F2F2"
+            android:textColor="#A70B47"
             android:textSize="18sp"
+            android:textStyle="bold"
+            app:cornerRadius="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/button2"
-            app:layout_constraintHorizontal_bias="0.486"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
