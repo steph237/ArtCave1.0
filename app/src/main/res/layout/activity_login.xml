@@ -23,7 +23,7 @@
             android:layout_height="0dp"
             android:layout_marginTop="72dp"
             android:fontFamily="sans-serif-medium"
-            android:text="SignUp"
+            android:text="LogIn"
             android:textColor="#A70B47"
             android:textSize="38sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -74,7 +74,7 @@
             android:layout_marginTop="16dp"
             android:backgroundTint="#A70B47"
             android:capitalize="sentences"
-            android:text="SignUp"
+            android:text="Login"
             app:cornerRadius="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
@@ -127,6 +127,6 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/undraw_art_lover_re_fn8g" />
+        app:srcCompat="@drawable/undraw_login_re_4vu2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

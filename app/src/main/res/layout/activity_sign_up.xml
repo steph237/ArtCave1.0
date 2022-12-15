@@ -143,6 +143,6 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/undraw_art_lover_re_fn8g" />
+        app:srcCompat="@drawable/undraw_authentication_re_svpt" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
